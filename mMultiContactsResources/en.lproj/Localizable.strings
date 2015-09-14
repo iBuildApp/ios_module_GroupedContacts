@@ -1,0 +1,84 @@
+/****************************************************************************
+ *                                                                           *
+ *  Copyright (C) 2014-2015 iBuildApp, Inc. ( http://ibuildapp.com )         *
+ *                                                                           *
+ *  This file is part of iBuildApp.                                          *
+ *                                                                           *
+ *  This Source Code Form is subject to the terms of the iBuildApp License.  *
+ *  You can obtain one at http://ibuildapp.com/license/                      *
+ *                                                                           *
+ ****************************************************************************/
+
+/* --- module MultiContacts strings --- */
+
+/* Search by contact info */
+"mMC_searchBarplaceholder" = "Search by contact info";
+
+/* Add Contact to Address Book */
+"mMC_addContactButton" = "Add Contact to Address Book";
+
+/* Address */
+"mMC_addressPageTitle" = "Address";
+
+/* Cancel */
+"mMC_addShareCancelButton" = "Cancel";
+
+/* Share Contact via Email */
+"mMC_addShareEmailButton" = "Share Contact via Email";
+
+/* Share Contact via SMS */
+"mMC_addShareSMSButton" = "Share Contact via SMS";
+
+/* Address */
+"mMC_detailsTitle" = "Address";
+
+/* Can not add contact without phone number! */
+"mMC_emptyPhoneNumberAddMessage" = "Can not add contact without phone number!";
+
+/* OK */
+"mMC_emptyPhoneNumberAddOkButtonTitle" = "OK";
+
+/* Error! */
+"mMC_emptyPhoneNumberAddTitle" = "Error!";
+
+/* Empty phone number! */
+"mMC_emptyPhoneNumberCallMessage" = "Empty phone number!";
+
+/* OK */
+"mMC_emptyPhoneNumberCallOkButtonTitle" = "OK";
+
+/* Error! */
+"mMC_emptyPhoneNumberCallTitle" = "Error!";
+
+/* Homepage */
+"mMC_homePageTitle" = "Homepage";
+
+/* Address */
+"mMC_messageAddressString" = "Address";
+
+/* Email */
+"mMC_messageEmailString" = "Email";
+
+/* Homepage */
+"mMC_messageHomepageString" = "Homepage";
+
+/* Name */
+"mMC_messageNameString" = "Name";
+
+/* Phone */
+"mMC_messagePhoneString" = "Phone";
+
+/* Contact info */
+"mMC_messageSubject" = "Contact info";
+
+/* Add to Contacts */
+"mMC_selectActionAdd" = "Add to Contacts";
+
+/* Call */
+"mMC_selectActionCall" = "Call";
+
+/* Cancel */
+"mMC_selectActionCancel" = "Cancel";
+
+/* No results found */
+"mMC_noResultsFound" = "No results found";

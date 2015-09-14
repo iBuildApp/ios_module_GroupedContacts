@@ -1,0 +1,630 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5970542E159DB8080003BA92 /* mMultiContacts.m in Sources */ = {isa = PBXBuildFile; fileRef = 5970542D159DB8080003BA92 /* mMultiContacts.m */; };
+		59E93DA1192F618F00430F4B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 59E93D9F192F618F00430F4B /* InfoPlist.strings */; };
+		59E93DCA192F61D800430F4B /* mContacts_Arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 59E93DA8192F61D800430F4B /* mContacts_Arrow.png */; };
+		59E93DCB192F61D800430F4B /* mContacts_Arrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 59E93DA9192F61D800430F4B /* mContacts_Arrow@2x.png */; };
+		59E93DCC192F61D800430F4B /* mContacts_ArrowLight.png in Resources */ = {isa = PBXBuildFile; fileRef = 59E93DAA192F61D800430F4B /* mContacts_ArrowLight.png */; };
+		59E93DCD192F61D800430F4B /* mContacts_ArrowLight@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 59E93DAB192F61D800430F4B /* mContacts_ArrowLight@2x.png */; };
+		59E93DCE192F61D800430F4B /* mContacts_TableRowFirstLight.png in Resources */ = {isa = PBXBuildFile; fileRef = 59E93DAC192F61D800430F4B /* mContacts_TableRowFirstLight.png */; };
+		59E93DCF192F61D800430F4B /* mContacts_TableRowFirstLight@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 59E93DAD192F61D800430F4B /* mContacts_TableRowFirstLight@2x.png */; };
+		59E93DD0192F61D800430F4B /* mContacts_TableRowLastLight.png in Resources */ = {isa = PBXBuildFile; fileRef = 59E93DAE192F61D800430F4B /* mContacts_TableRowLastLight.png */; };
+		59E93DD1192F61D800430F4B /* mContacts_TableRowLastLight@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 59E93DAF192F61D800430F4B /* mContacts_TableRowLastLight@2x.png */; };
+		59E93DD2192F61D800430F4B /* mContacts_TableRowMiddleLight.png in Resources */ = {isa = PBXBuildFile; fileRef = 59E93DB0192F61D800430F4B /* mContacts_TableRowMiddleLight.png */; };
+		59E93DD3192F61D800430F4B /* mContacts_TableRowMiddleLight@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 59E93DB1192F61D800430F4B /* mContacts_TableRowMiddleLight@2x.png */; };
+		59E93DD4192F61D800430F4B /* mContacts_TableRowLast.png in Resources */ = {isa = PBXBuildFile; fileRef = 59E93DB2192F61D800430F4B /* mContacts_TableRowLast.png */; };
+		59E93DD5192F61D800430F4B /* mContacts_TableRowLast@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 59E93DB3192F61D800430F4B /* mContacts_TableRowLast@2x.png */; };
+		59E93DD6192F61D800430F4B /* mContacts_TableRowMiddle.png in Resources */ = {isa = PBXBuildFile; fileRef = 59E93DB4192F61D800430F4B /* mContacts_TableRowMiddle.png */; };
+		59E93DD7192F61D800430F4B /* mContacts_TableRowMiddle@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 59E93DB5192F61D800430F4B /* mContacts_TableRowMiddle@2x.png */; };
+		59E93DD8192F61D800430F4B /* mContacts_TableRowFirst.png in Resources */ = {isa = PBXBuildFile; fileRef = 59E93DB6192F61D800430F4B /* mContacts_TableRowFirst.png */; };
+		59E93DD9192F61D800430F4B /* mContacts_TableRowFirst@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 59E93DB7192F61D800430F4B /* mContacts_TableRowFirst@2x.png */; };
+		59E93DDA192F61D800430F4B /* mContacts_address.png in Resources */ = {isa = PBXBuildFile; fileRef = 59E93DB8192F61D800430F4B /* mContacts_address.png */; };
+		59E93DDB192F61D800430F4B /* mContacts_address@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 59E93DB9192F61D800430F4B /* mContacts_address@2x.png */; };
+		59E93DDC192F61D800430F4B /* mContacts_contact.png in Resources */ = {isa = PBXBuildFile; fileRef = 59E93DBA192F61D800430F4B /* mContacts_contact.png */; };
+		59E93DDD192F61D800430F4B /* mContacts_contact@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 59E93DBB192F61D800430F4B /* mContacts_contact@2x.png */; };
+		59E93DDE192F61D800430F4B /* mContacts_email.png in Resources */ = {isa = PBXBuildFile; fileRef = 59E93DBC192F61D800430F4B /* mContacts_email.png */; };
+		59E93DDF192F61D800430F4B /* mContacts_email@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 59E93DBD192F61D800430F4B /* mContacts_email@2x.png */; };
+		59E93DE0192F61D800430F4B /* mContacts_homepage.png in Resources */ = {isa = PBXBuildFile; fileRef = 59E93DBE192F61D800430F4B /* mContacts_homepage.png */; };
+		59E93DE1192F61D800430F4B /* mContacts_homepage@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 59E93DBF192F61D800430F4B /* mContacts_homepage@2x.png */; };
+		59E93DE2192F61D800430F4B /* mContacts_phone.png in Resources */ = {isa = PBXBuildFile; fileRef = 59E93DC0192F61D800430F4B /* mContacts_phone.png */; };
+		59E93DE3192F61D800430F4B /* mContacts_phone@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 59E93DC1192F61D800430F4B /* mContacts_phone@2x.png */; };
+		59E93DE4192F61D800430F4B /* mContacts_TableRowSingle.png in Resources */ = {isa = PBXBuildFile; fileRef = 59E93DC2192F61D800430F4B /* mContacts_TableRowSingle.png */; };
+		59E93DE5192F61D800430F4B /* mContacts_TableRowSingle@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 59E93DC3192F61D800430F4B /* mContacts_TableRowSingle@2x.png */; };
+		59E93DE6192F61D800430F4B /* mContacts_TableRowSingleLight.png in Resources */ = {isa = PBXBuildFile; fileRef = 59E93DC4192F61D800430F4B /* mContacts_TableRowSingleLight.png */; };
+		59E93DE7192F61D800430F4B /* mContacts_TableRowSingleLight@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 59E93DC5192F61D800430F4B /* mContacts_TableRowSingleLight@2x.png */; };
+		59E93DE8192F61D800430F4B /* mContacts_shareEMail.png in Resources */ = {isa = PBXBuildFile; fileRef = 59E93DC6192F61D800430F4B /* mContacts_shareEMail.png */; };
+		59E93DE9192F61D800430F4B /* mContacts_shareEMail@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 59E93DC7192F61D800430F4B /* mContacts_shareEMail@2x.png */; };
+		59E93DEA192F61D800430F4B /* mContacts_shareSMS.png in Resources */ = {isa = PBXBuildFile; fileRef = 59E93DC8192F61D800430F4B /* mContacts_shareSMS.png */; };
+		59E93DEB192F61D800430F4B /* mContacts_shareSMS@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 59E93DC9192F61D800430F4B /* mContacts_shareSMS@2x.png */; };
+		59E93E2F192F634C00430F4B /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 59E93E31192F634C00430F4B /* Localizable.strings */; };
+		77027E7E162D85C400C72F74 /* mAddressDetails.m in Sources */ = {isa = PBXBuildFile; fileRef = 77027E7C162D85C400C72F74 /* mAddressDetails.m */; };
+		77C3BDC7161C2F1C00C360ED /* mDetails.m in Sources */ = {isa = PBXBuildFile; fileRef = 77C3BDC5161C2F1C00C360ED /* mDetails.m */; };
+		A973CF501834B54700273069 /* mContacts.m in Sources */ = {isa = PBXBuildFile; fileRef = A973CF4E1834B54700273069 /* mContacts.m */; };
+		A973CF541834B5D700273069 /* mCategories.m in Sources */ = {isa = PBXBuildFile; fileRef = A973CF521834B5D700273069 /* mCategories.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		59E93EB9192F685B00430F4B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5970541B159DB8080003BA92 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 59E93D93192F618F00430F4B;
+			remoteInfo = mMultiContactsResources;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		59705424159DB8080003BA92 /* mMultiContacts.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = mMultiContacts.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		5970542B159DB8080003BA92 /* mMultiContacts-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "mMultiContacts-Prefix.pch"; sourceTree = "<group>"; };
+		5970542C159DB8080003BA92 /* mMultiContacts.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = mMultiContacts.h; sourceTree = "<group>"; };
+		5970542D159DB8080003BA92 /* mMultiContacts.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = mMultiContacts.m; sourceTree = "<group>"; };
+		59E93D94192F618F00430F4B /* mMultiContactsResources.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mMultiContactsResources.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		59E93D9E192F618F00430F4B /* mMultiContactsResources-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "mMultiContactsResources-Info.plist"; sourceTree = "<group>"; };
+		59E93DA0192F618F00430F4B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		59E93DA2192F618F00430F4B /* mMultiContactsResources-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "mMultiContactsResources-Prefix.pch"; sourceTree = "<group>"; };
+		59E93DA8192F61D800430F4B /* mContacts_Arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = mContacts_Arrow.png; path = mMultiContacts/resources/mContacts_Arrow.png; sourceTree = SOURCE_ROOT; };
+		59E93DA9192F61D800430F4B /* mContacts_Arrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "mContacts_Arrow@2x.png"; path = "mMultiContacts/resources/mContacts_Arrow@2x.png"; sourceTree = SOURCE_ROOT; };
+		59E93DAA192F61D800430F4B /* mContacts_ArrowLight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = mContacts_ArrowLight.png; path = mMultiContacts/resources/mContacts_ArrowLight.png; sourceTree = SOURCE_ROOT; };
+		59E93DAB192F61D800430F4B /* mContacts_ArrowLight@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "mContacts_ArrowLight@2x.png"; path = "mMultiContacts/resources/mContacts_ArrowLight@2x.png"; sourceTree = SOURCE_ROOT; };
+		59E93DAC192F61D800430F4B /* mContacts_TableRowFirstLight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = mContacts_TableRowFirstLight.png; path = mMultiContacts/resources/mContacts_TableRowFirstLight.png; sourceTree = SOURCE_ROOT; };
+		59E93DAD192F61D800430F4B /* mContacts_TableRowFirstLight@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "mContacts_TableRowFirstLight@2x.png"; path = "mMultiContacts/resources/mContacts_TableRowFirstLight@2x.png"; sourceTree = SOURCE_ROOT; };
+		59E93DAE192F61D800430F4B /* mContacts_TableRowLastLight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = mContacts_TableRowLastLight.png; path = mMultiContacts/resources/mContacts_TableRowLastLight.png; sourceTree = SOURCE_ROOT; };
+		59E93DAF192F61D800430F4B /* mContacts_TableRowLastLight@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "mContacts_TableRowLastLight@2x.png"; path = "mMultiContacts/resources/mContacts_TableRowLastLight@2x.png"; sourceTree = SOURCE_ROOT; };
+		59E93DB0192F61D800430F4B /* mContacts_TableRowMiddleLight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = mContacts_TableRowMiddleLight.png; path = mMultiContacts/resources/mContacts_TableRowMiddleLight.png; sourceTree = SOURCE_ROOT; };
+		59E93DB1192F61D800430F4B /* mContacts_TableRowMiddleLight@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "mContacts_TableRowMiddleLight@2x.png"; path = "mMultiContacts/resources/mContacts_TableRowMiddleLight@2x.png"; sourceTree = SOURCE_ROOT; };
+		59E93DB2192F61D800430F4B /* mContacts_TableRowLast.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = mContacts_TableRowLast.png; path = mMultiContacts/resources/mContacts_TableRowLast.png; sourceTree = SOURCE_ROOT; };
+		59E93DB3192F61D800430F4B /* mContacts_TableRowLast@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "mContacts_TableRowLast@2x.png"; path = "mMultiContacts/resources/mContacts_TableRowLast@2x.png"; sourceTree = SOURCE_ROOT; };
+		59E93DB4192F61D800430F4B /* mContacts_TableRowMiddle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = mContacts_TableRowMiddle.png; path = mMultiContacts/resources/mContacts_TableRowMiddle.png; sourceTree = SOURCE_ROOT; };
+		59E93DB5192F61D800430F4B /* mContacts_TableRowMiddle@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "mContacts_TableRowMiddle@2x.png"; path = "mMultiContacts/resources/mContacts_TableRowMiddle@2x.png"; sourceTree = SOURCE_ROOT; };
+		59E93DB6192F61D800430F4B /* mContacts_TableRowFirst.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = mContacts_TableRowFirst.png; path = mMultiContacts/resources/mContacts_TableRowFirst.png; sourceTree = SOURCE_ROOT; };
+		59E93DB7192F61D800430F4B /* mContacts_TableRowFirst@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "mContacts_TableRowFirst@2x.png"; path = "mMultiContacts/resources/mContacts_TableRowFirst@2x.png"; sourceTree = SOURCE_ROOT; };
+		59E93DB8192F61D800430F4B /* mContacts_address.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = mContacts_address.png; path = mMultiContacts/resources/mContacts_address.png; sourceTree = SOURCE_ROOT; };
+		59E93DB9192F61D800430F4B /* mContacts_address@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "mContacts_address@2x.png"; path = "mMultiContacts/resources/mContacts_address@2x.png"; sourceTree = SOURCE_ROOT; };
+		59E93DBA192F61D800430F4B /* mContacts_contact.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = mContacts_contact.png; path = mMultiContacts/resources/mContacts_contact.png; sourceTree = SOURCE_ROOT; };
+		59E93DBB192F61D800430F4B /* mContacts_contact@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "mContacts_contact@2x.png"; path = "mMultiContacts/resources/mContacts_contact@2x.png"; sourceTree = SOURCE_ROOT; };
+		59E93DBC192F61D800430F4B /* mContacts_email.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = mContacts_email.png; path = mMultiContacts/resources/mContacts_email.png; sourceTree = SOURCE_ROOT; };
+		59E93DBD192F61D800430F4B /* mContacts_email@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "mContacts_email@2x.png"; path = "mMultiContacts/resources/mContacts_email@2x.png"; sourceTree = SOURCE_ROOT; };
+		59E93DBE192F61D800430F4B /* mContacts_homepage.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = mContacts_homepage.png; path = mMultiContacts/resources/mContacts_homepage.png; sourceTree = SOURCE_ROOT; };
+		59E93DBF192F61D800430F4B /* mContacts_homepage@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "mContacts_homepage@2x.png"; path = "mMultiContacts/resources/mContacts_homepage@2x.png"; sourceTree = SOURCE_ROOT; };
+		59E93DC0192F61D800430F4B /* mContacts_phone.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = mContacts_phone.png; path = mMultiContacts/resources/mContacts_phone.png; sourceTree = SOURCE_ROOT; };
+		59E93DC1192F61D800430F4B /* mContacts_phone@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "mContacts_phone@2x.png"; path = "mMultiContacts/resources/mContacts_phone@2x.png"; sourceTree = SOURCE_ROOT; };
+		59E93DC2192F61D800430F4B /* mContacts_TableRowSingle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = mContacts_TableRowSingle.png; path = mMultiContacts/resources/mContacts_TableRowSingle.png; sourceTree = SOURCE_ROOT; };
+		59E93DC3192F61D800430F4B /* mContacts_TableRowSingle@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "mContacts_TableRowSingle@2x.png"; path = "mMultiContacts/resources/mContacts_TableRowSingle@2x.png"; sourceTree = SOURCE_ROOT; };
+		59E93DC4192F61D800430F4B /* mContacts_TableRowSingleLight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = mContacts_TableRowSingleLight.png; path = mMultiContacts/resources/mContacts_TableRowSingleLight.png; sourceTree = SOURCE_ROOT; };
+		59E93DC5192F61D800430F4B /* mContacts_TableRowSingleLight@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "mContacts_TableRowSingleLight@2x.png"; path = "mMultiContacts/resources/mContacts_TableRowSingleLight@2x.png"; sourceTree = SOURCE_ROOT; };
+		59E93DC6192F61D800430F4B /* mContacts_shareEMail.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = mContacts_shareEMail.png; path = mMultiContacts/resources/mContacts_shareEMail.png; sourceTree = SOURCE_ROOT; };
+		59E93DC7192F61D800430F4B /* mContacts_shareEMail@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "mContacts_shareEMail@2x.png"; path = "mMultiContacts/resources/mContacts_shareEMail@2x.png"; sourceTree = SOURCE_ROOT; };
+		59E93DC8192F61D800430F4B /* mContacts_shareSMS.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = mContacts_shareSMS.png; path = mMultiContacts/resources/mContacts_shareSMS.png; sourceTree = SOURCE_ROOT; };
+		59E93DC9192F61D800430F4B /* mContacts_shareSMS@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "mContacts_shareSMS@2x.png"; path = "mMultiContacts/resources/mContacts_shareSMS@2x.png"; sourceTree = SOURCE_ROOT; };
+		59E93E30192F634C00430F4B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		59E93E32192F638600430F4B /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Localizable.strings; sourceTree = "<group>"; };
+		59E93EA5192F642700430F4B /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
+		77027E7B162D85C400C72F74 /* mAddressDetails.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mAddressDetails.h; sourceTree = "<group>"; };
+		77027E7C162D85C400C72F74 /* mAddressDetails.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = mAddressDetails.m; sourceTree = "<group>"; };
+		77C3BDC4161C2F1C00C360ED /* mDetails.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mDetails.h; sourceTree = "<group>"; };
+		77C3BDC5161C2F1C00C360ED /* mDetails.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = mDetails.m; sourceTree = "<group>"; };
+		A973CF4D1834B54700273069 /* mContacts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mContacts.h; sourceTree = "<group>"; };
+		A973CF4E1834B54700273069 /* mContacts.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = mContacts.m; sourceTree = "<group>"; };
+		A973CF511834B5D700273069 /* mCategories.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = mCategories.h; sourceTree = "<group>"; };
+		A973CF521834B5D700273069 /* mCategories.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = mCategories.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		59705421159DB8080003BA92 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59E93D91192F618F00430F4B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		59705419159DB8080003BA92 = {
+			isa = PBXGroup;
+			children = (
+				59705429159DB8080003BA92 /* mMultiContacts */,
+				59E93D9C192F618F00430F4B /* mMultiContactsResources */,
+				59705425159DB8080003BA92 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		59705425159DB8080003BA92 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				59705424159DB8080003BA92 /* mMultiContacts.a */,
+				59E93D94192F618F00430F4B /* mMultiContactsResources.bundle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		59705429159DB8080003BA92 /* mMultiContacts */ = {
+			isa = PBXGroup;
+			children = (
+				5970542C159DB8080003BA92 /* mMultiContacts.h */,
+				5970542D159DB8080003BA92 /* mMultiContacts.m */,
+				A973CF511834B5D700273069 /* mCategories.h */,
+				A973CF521834B5D700273069 /* mCategories.m */,
+				A973CF4D1834B54700273069 /* mContacts.h */,
+				A973CF4E1834B54700273069 /* mContacts.m */,
+				77C3BDC4161C2F1C00C360ED /* mDetails.h */,
+				77C3BDC5161C2F1C00C360ED /* mDetails.m */,
+				77027E7B162D85C400C72F74 /* mAddressDetails.h */,
+				77027E7C162D85C400C72F74 /* mAddressDetails.m */,
+				5970542A159DB8080003BA92 /* Supporting Files */,
+			);
+			path = mMultiContacts;
+			sourceTree = "<group>";
+		};
+		5970542A159DB8080003BA92 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5970542B159DB8080003BA92 /* mMultiContacts-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		59E93D9C192F618F00430F4B /* mMultiContactsResources */ = {
+			isa = PBXGroup;
+			children = (
+				59E93DA7192F61C600430F4B /* Resources */,
+				59E93D9D192F618F00430F4B /* Supporting Files */,
+			);
+			path = mMultiContactsResources;
+			sourceTree = "<group>";
+		};
+		59E93D9D192F618F00430F4B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				59E93D9E192F618F00430F4B /* mMultiContactsResources-Info.plist */,
+				59E93D9F192F618F00430F4B /* InfoPlist.strings */,
+				59E93DA2192F618F00430F4B /* mMultiContactsResources-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		59E93DA7192F61C600430F4B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				59E93DA8192F61D800430F4B /* mContacts_Arrow.png */,
+				59E93DA9192F61D800430F4B /* mContacts_Arrow@2x.png */,
+				59E93DAA192F61D800430F4B /* mContacts_ArrowLight.png */,
+				59E93DAB192F61D800430F4B /* mContacts_ArrowLight@2x.png */,
+				59E93DAC192F61D800430F4B /* mContacts_TableRowFirstLight.png */,
+				59E93DAD192F61D800430F4B /* mContacts_TableRowFirstLight@2x.png */,
+				59E93DAE192F61D800430F4B /* mContacts_TableRowLastLight.png */,
+				59E93DAF192F61D800430F4B /* mContacts_TableRowLastLight@2x.png */,
+				59E93DB0192F61D800430F4B /* mContacts_TableRowMiddleLight.png */,
+				59E93DB1192F61D800430F4B /* mContacts_TableRowMiddleLight@2x.png */,
+				59E93DB2192F61D800430F4B /* mContacts_TableRowLast.png */,
+				59E93DB3192F61D800430F4B /* mContacts_TableRowLast@2x.png */,
+				59E93DB4192F61D800430F4B /* mContacts_TableRowMiddle.png */,
+				59E93DB5192F61D800430F4B /* mContacts_TableRowMiddle@2x.png */,
+				59E93DB6192F61D800430F4B /* mContacts_TableRowFirst.png */,
+				59E93DB7192F61D800430F4B /* mContacts_TableRowFirst@2x.png */,
+				59E93DB8192F61D800430F4B /* mContacts_address.png */,
+				59E93DB9192F61D800430F4B /* mContacts_address@2x.png */,
+				59E93DBA192F61D800430F4B /* mContacts_contact.png */,
+				59E93DBB192F61D800430F4B /* mContacts_contact@2x.png */,
+				59E93DBC192F61D800430F4B /* mContacts_email.png */,
+				59E93DBD192F61D800430F4B /* mContacts_email@2x.png */,
+				59E93DBE192F61D800430F4B /* mContacts_homepage.png */,
+				59E93DBF192F61D800430F4B /* mContacts_homepage@2x.png */,
+				59E93DC0192F61D800430F4B /* mContacts_phone.png */,
+				59E93DC1192F61D800430F4B /* mContacts_phone@2x.png */,
+				59E93DC2192F61D800430F4B /* mContacts_TableRowSingle.png */,
+				59E93DC3192F61D800430F4B /* mContacts_TableRowSingle@2x.png */,
+				59E93DC4192F61D800430F4B /* mContacts_TableRowSingleLight.png */,
+				59E93DC5192F61D800430F4B /* mContacts_TableRowSingleLight@2x.png */,
+				59E93DC6192F61D800430F4B /* mContacts_shareEMail.png */,
+				59E93DC7192F61D800430F4B /* mContacts_shareEMail@2x.png */,
+				59E93DC8192F61D800430F4B /* mContacts_shareSMS.png */,
+				59E93DC9192F61D800430F4B /* mContacts_shareSMS@2x.png */,
+				59E93E31192F634C00430F4B /* Localizable.strings */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		59705423159DB8080003BA92 /* mMultiContacts */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 59705431159DB8080003BA92 /* Build configuration list for PBXNativeTarget "mMultiContacts" */;
+			buildPhases = (
+				59705420159DB8080003BA92 /* Sources */,
+				59705421159DB8080003BA92 /* Frameworks */,
+				777704D215A59872005E1A33 /* Run Script */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				59E93EBA192F685B00430F4B /* PBXTargetDependency */,
+			);
+			name = mMultiContacts;
+			productName = mMultiContacts;
+			productReference = 59705424159DB8080003BA92 /* mMultiContacts.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		59E93D93192F618F00430F4B /* mMultiContactsResources */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 59E93DA5192F618F00430F4B /* Build configuration list for PBXNativeTarget "mMultiContactsResources" */;
+			buildPhases = (
+				59E93D90192F618F00430F4B /* Sources */,
+				59E93D91192F618F00430F4B /* Frameworks */,
+				59E93D92192F618F00430F4B /* Resources */,
+				59E93DA6192F61B500430F4B /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = mMultiContactsResources;
+			productName = mMultiContactsResources;
+			productReference = 59E93D94192F618F00430F4B /* mMultiContactsResources.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5970541B159DB8080003BA92 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+			};
+			buildConfigurationList = 5970541E159DB8080003BA92 /* Build configuration list for PBXProject "mMultiContacts" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				ru,
+				Base,
+			);
+			mainGroup = 59705419159DB8080003BA92;
+			productRefGroup = 59705425159DB8080003BA92 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				59705423159DB8080003BA92 /* mMultiContacts */,
+				59E93D93192F618F00430F4B /* mMultiContactsResources */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		59E93D92192F618F00430F4B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59E93DD4192F61D800430F4B /* mContacts_TableRowLast.png in Resources */,
+				59E93DD8192F61D800430F4B /* mContacts_TableRowFirst.png in Resources */,
+				59E93DE5192F61D800430F4B /* mContacts_TableRowSingle@2x.png in Resources */,
+				59E93DE9192F61D800430F4B /* mContacts_shareEMail@2x.png in Resources */,
+				59E93DE0192F61D800430F4B /* mContacts_homepage.png in Resources */,
+				59E93DCD192F61D800430F4B /* mContacts_ArrowLight@2x.png in Resources */,
+				59E93DE6192F61D800430F4B /* mContacts_TableRowSingleLight.png in Resources */,
+				59E93DD0192F61D800430F4B /* mContacts_TableRowLastLight.png in Resources */,
+				59E93DCA192F61D800430F4B /* mContacts_Arrow.png in Resources */,
+				59E93DD3192F61D800430F4B /* mContacts_TableRowMiddleLight@2x.png in Resources */,
+				59E93DEA192F61D800430F4B /* mContacts_shareSMS.png in Resources */,
+				59E93DDB192F61D800430F4B /* mContacts_address@2x.png in Resources */,
+				59E93DE4192F61D800430F4B /* mContacts_TableRowSingle.png in Resources */,
+				59E93E2F192F634C00430F4B /* Localizable.strings in Resources */,
+				59E93DDC192F61D800430F4B /* mContacts_contact.png in Resources */,
+				59E93DE1192F61D800430F4B /* mContacts_homepage@2x.png in Resources */,
+				59E93DCE192F61D800430F4B /* mContacts_TableRowFirstLight.png in Resources */,
+				59E93DE7192F61D800430F4B /* mContacts_TableRowSingleLight@2x.png in Resources */,
+				59E93DD2192F61D800430F4B /* mContacts_TableRowMiddleLight.png in Resources */,
+				59E93DD6192F61D800430F4B /* mContacts_TableRowMiddle.png in Resources */,
+				59E93DE8192F61D800430F4B /* mContacts_shareEMail.png in Resources */,
+				59E93DD1192F61D800430F4B /* mContacts_TableRowLastLight@2x.png in Resources */,
+				59E93DEB192F61D800430F4B /* mContacts_shareSMS@2x.png in Resources */,
+				59E93DDD192F61D800430F4B /* mContacts_contact@2x.png in Resources */,
+				59E93DDE192F61D800430F4B /* mContacts_email.png in Resources */,
+				59E93DD9192F61D800430F4B /* mContacts_TableRowFirst@2x.png in Resources */,
+				59E93DCC192F61D800430F4B /* mContacts_ArrowLight.png in Resources */,
+				59E93DCF192F61D800430F4B /* mContacts_TableRowFirstLight@2x.png in Resources */,
+				59E93DE2192F61D800430F4B /* mContacts_phone.png in Resources */,
+				59E93DDF192F61D800430F4B /* mContacts_email@2x.png in Resources */,
+				59E93DD7192F61D800430F4B /* mContacts_TableRowMiddle@2x.png in Resources */,
+				59E93DCB192F61D800430F4B /* mContacts_Arrow@2x.png in Resources */,
+				59E93DDA192F61D800430F4B /* mContacts_address.png in Resources */,
+				59E93DD5192F61D800430F4B /* mContacts_TableRowLast@2x.png in Resources */,
+				59E93DA1192F618F00430F4B /* InfoPlist.strings in Resources */,
+				59E93DE3192F61D800430F4B /* mContacts_phone@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		59E93DA6192F61B500430F4B /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 8;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+			shellPath = /bin/sh;
+			shellScript = "cp -fR \"$CODESIGNING_FOLDER_PATH\" `echo $PROJECT_DIR | sed 's/appbuilder/appbuilder_server/g'`";
+		};
+		777704D215A59872005E1A33 /* Run Script */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 8;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Run Script";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+			shellPath = /bin/sh;
+			shellScript = "cp -fR \"$CODESIGNING_FOLDER_PATH\" `echo $PROJECT_DIR | sed 's/appbuilder/appbuilder_server/g'`";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		59705420159DB8080003BA92 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5970542E159DB8080003BA92 /* mMultiContacts.m in Sources */,
+				77C3BDC7161C2F1C00C360ED /* mDetails.m in Sources */,
+				A973CF501834B54700273069 /* mContacts.m in Sources */,
+				77027E7E162D85C400C72F74 /* mAddressDetails.m in Sources */,
+				A973CF541834B5D700273069 /* mCategories.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59E93D90192F618F00430F4B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		59E93EBA192F685B00430F4B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 59E93D93192F618F00430F4B /* mMultiContactsResources */;
+			targetProxy = 59E93EB9192F685B00430F4B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		59E93D9F192F618F00430F4B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				59E93DA0192F618F00430F4B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		59E93E31192F634C00430F4B /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				59E93E30192F634C00430F4B /* en */,
+				59E93E32192F638600430F4B /* ru */,
+				59E93EA5192F642700430F4B /* Base */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5970542F159DB8080003BA92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = iphoneos;
+				VALID_ARCHS = "armv7 arm64";
+			};
+			name = Debug;
+		};
+		59705430159DB8080003BA92 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+				VALID_ARCHS = "armv7 arm64";
+			};
+			name = Release;
+		};
+		59705432159DB8080003BA92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/mMultiContacts.dst;
+				EXECUTABLE_PREFIX = "";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "mMultiContacts/mMultiContacts-Prefix.pch";
+				HEADER_SEARCH_PATHS = ../../libs;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				USER_HEADER_SEARCH_PATHS = "../../libs/nrGridView ../../libs/tbxml/tbxml-headers/ ../../Classes/network ../../Classes/common ../../libs/Facebook/ ../../libs/Twitter+OAuth/SAOAuthTwitterEngine ../../libs/JSON ../../plugins/mWebVC/mWebVC/ ../../plugins/mMap/mMap/";
+				VALID_ARCHS = "armv7 arm64";
+			};
+			name = Debug;
+		};
+		59705433159DB8080003BA92 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/mMultiContacts.dst;
+				EXECUTABLE_PREFIX = "";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "mMultiContacts/mMultiContacts-Prefix.pch";
+				HEADER_SEARCH_PATHS = ../../libs;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				USER_HEADER_SEARCH_PATHS = "../../libs/nrGridView ../../libs/tbxml/tbxml-headers/ ../../Classes/network ../../Classes/common ../../libs/Facebook/ ../../libs/Twitter+OAuth/SAOAuthTwitterEngine ../../libs/JSON ../../plugins/mWebVC/mWebVC/ ../../plugins/mMap/mMap/";
+				VALID_ARCHS = "armv7 arm64";
+			};
+			name = Release;
+		};
+		59E93DA3192F618F00430F4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				COMBINE_HIDPI_IMAGES = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "mMultiContactsResources/mMultiContactsResources-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				INFOPLIST_FILE = "mMultiContactsResources/mMultiContactsResources-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				MACOSX_DEPLOYMENT_TARGET = "";
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		59E93DA4192F618F00430F4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				COMBINE_HIDPI_IMAGES = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "mMultiContactsResources/mMultiContactsResources-Prefix.pch";
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				INFOPLIST_FILE = "mMultiContactsResources/mMultiContactsResources-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Bundles";
+				MACOSX_DEPLOYMENT_TARGET = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5970541E159DB8080003BA92 /* Build configuration list for PBXProject "mMultiContacts" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5970542F159DB8080003BA92 /* Debug */,
+				59705430159DB8080003BA92 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		59705431159DB8080003BA92 /* Build configuration list for PBXNativeTarget "mMultiContacts" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59705432159DB8080003BA92 /* Debug */,
+				59705433159DB8080003BA92 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		59E93DA5192F618F00430F4B /* Build configuration list for PBXNativeTarget "mMultiContactsResources" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				59E93DA3192F618F00430F4B /* Debug */,
+				59E93DA4192F618F00430F4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5970541B159DB8080003BA92 /* Project object */;
+}

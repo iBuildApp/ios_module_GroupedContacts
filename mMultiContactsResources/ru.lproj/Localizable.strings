@@ -1,0 +1,84 @@
+/****************************************************************************
+ *                                                                           *
+ *  Copyright (C) 2014-2015 iBuildApp, Inc. ( http://ibuildapp.com )         *
+ *                                                                           *
+ *  This file is part of iBuildApp.                                          *
+ *                                                                           *
+ *  This Source Code Form is subject to the terms of the iBuildApp License.  *
+ *  You can obtain one at http://ibuildapp.com/license/                      *
+ *                                                                           *
+ ****************************************************************************/
+
+/* --- module MultiContacts strings --- */
+
+/* Search by contact info */
+"mMC_searchBarplaceholder" = "Найти контакт";
+
+/* Add Contact to Address Book */
+"mMC_addContactButton" = "Добавить контакт в Адресную книгу";
+
+/* Address */
+"mMC_addressPageTitle" = "Адрес";
+
+/* Cancel */
+"mMC_addShareCancelButton" = "Отмена";
+
+/* Share Contact via Email */
+"mMC_addShareEmailButton" = "Поделиться через Email";
+
+/* Share Contact via SMS */
+"mMC_addShareSMSButton" = "Поделиться через СМС";
+
+/* Address */
+"mMC_detailsTitle" = "Адрес";
+
+/* Can not add contact without phone number! */
+"mMC_emptyPhoneNumberAddMessage" = "Номер телефона отсутствует. Контакт добавить невозможно";
+
+/* OK */
+"mMC_emptyPhoneNumberAddOkButtonTitle" = "OK";
+
+/* Error! */
+"mMC_emptyPhoneNumberAddTitle" = "Ошибка!";
+
+/* Empty phone number! */
+"mMC_emptyPhoneNumberCallMessage" = "Отсутствует номер телефона!";
+
+/* OK */
+"mMC_emptyPhoneNumberCallOkButtonTitle" = "OK";
+
+/* Error! */
+"mMC_emptyPhoneNumberCallTitle" = "Ошибка!";
+
+/* Homepage */
+"mMC_homePageTitle" = "Домашняя";
+
+/* Address */
+"mMC_messageAddressString" = "Адрес";
+
+/* Email */
+"mMC_messageEmailString" = "Email";
+
+/* Homepage */
+"mMC_messageHomepageString" = "Домашняя страница";
+
+/* Name */
+"mMC_messageNameString" = "Имя";
+
+/* Phone */
+"mMC_messagePhoneString" = "Телефон";
+
+/* Contact info */
+"mMC_messageSubject" = "Контактная информация";
+
+/* Add to Contacts */
+"mMC_selectActionAdd" = "Добавить в Контакты";
+
+/* Call */
+"mMC_selectActionCall" = "Позвонить";
+
+/* Cancel */
+"mMC_selectActionCancel" = "Отмена";
+
+/* No results found */
+"mMC_noResultsFound" = "Результатов не найдено";
